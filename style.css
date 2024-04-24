@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(36, 209, 252, 0.315),rgba(36, 209, 252, 0.281)),url(./form.jpg);
+    background-size: cover;
+
+
+
+}
+header{
+    background-image: linear-gradient(to right bottom, rgba(127, 251, 255, 0.527), rgba(36, 209, 252, 0.199));
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.534);
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    
+}
+.box{
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="Email"],
+input[type="Age"] {
+   display: block;
+   width: 96%;
+   padding: 10px;
+   border: none;
+   margin-bottom: 20px;
+   margin-top: 4px;
+}
+label{
+    width: 100%;
+    padding: 5px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    width: 5%;
+}
+select{
+    display: block;
+    width: 96%;
+    padding: 10px;
+
+}
+.flex{
+    display: flex;
+}
+button{
+    padding: 20px;
+    width: 96%;
+    border-radius: 2px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.623);
+    font-size: 18px;
+}
+footer{
+    background-color: rgba(216, 211, 211, 0.897);
+
+}
+.footer{
+    display: block;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.para{
+    margin-top: 4px;
+}
+span{
+    display: block;
+    margin-top: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
